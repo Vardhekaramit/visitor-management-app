@@ -1,0 +1,25 @@
+name: visitor_management
+description: Visitor Management mobile application for front-desk and security staff.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.9.0
+  flutter: ">=3.35.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  qr_flutter: ^4.1.0
+  mobile_scanner: ^6.0.2
+  intl: ^0.20.2
+  provider: ^6.1.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
